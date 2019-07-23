@@ -10,13 +10,11 @@
     name: 'Example',
     data () {
       return {
-        message: 'Hello World'
+        message: 'Hello World!!'
       }
     },
     methods: {
       reversedClick: function() {
-        console.log(this.message)
-
         this.message = this.message.split('').reverse().join('')
       }
     }
